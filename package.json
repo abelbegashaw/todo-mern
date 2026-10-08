@@ -1,0 +1,20 @@
+{
+  "name": "todo-mern",
+  "version": "1.0.0",
+  "description": "A to do app built using mern",
+  "homepage": "https://github.com/abelbegashaw/todo-mern#readme",
+  "bugs": {
+    "url": "https://github.com/abelbegashaw/todo-mern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelbegashaw/todo-mern.git"
+  },
+  "license": "ISC",
+  "author": "abelbegashaw",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
