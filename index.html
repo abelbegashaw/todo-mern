@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="test_1"></div>
+    <script type="module">
+        const response = await fetch('http://localhost:3000');
+        
+        document.getElementById('test_1').innerHTML = await response.text();
+    </script>
+    <div id="test_2"></div>
+    <script type="module">
+        const response = await fetch('http://localhost:3000');
+        
+        document.getElementById('test_2').innerHTML = await response.text();
+    </script>
+</body>
+</html>
